@@ -65,7 +65,7 @@ export class BoardComponent implements OnInit {
     for (let i = 0; i < lines.length; i++) {
       // destructure lines
       const [a, b, c] = lines[i];
-      //if the current line's first value "a" is .....
+
       if (
         this.squares[a] &&
         this.squares[a] === this.squares[b] &&
